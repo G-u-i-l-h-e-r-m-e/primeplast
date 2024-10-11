@@ -1,0 +1,48 @@
+@font-face {
+    font-family:'Inter-Regular';
+    src:url("../Fonts/Inter/Inter-Regular.woff");
+}
+.inputContainer {
+    position: relative;
+    width: fit-content;
+    width: 100%;
+    height: 40px;
+    margin: 20px 0px 20px 0px ;
+}
+
+.inputContainer img {
+    position: absolute;
+    right: 10px;
+    top: 25%;
+    transform: translateY(20); 
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+ul li{
+    list-style: inside;
+    color: #718096;
+    font-size: 12px;
+    font-family: Inter-Regular;
+    margin: 10px;
+}
+ul{
+    width: 72%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+}
+.feedback {
+    color: gray; 
+}
+.feedback.valid {
+    color: green; 
+}
+.feedback.invalid {
+    color: red; 
+}

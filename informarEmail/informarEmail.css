@@ -1,0 +1,39 @@
+@font-face {
+    font-family:'visbyBold';
+    src:url("../Fonts/Visby/VisbyBold.woff");
+}
+@font-face {
+    font-family:'Inter-Regular';
+    src:url("../Fonts/Inter/Inter-Regular.woff");
+}
+
+.headerPrime{
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.15) 1px 2px 3px;
+}
+.headerPrime img{
+    width: 8%;
+    margin: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+.containerInformeEmail{
+    width: 22%;
+}
+.containerInformeEmail h3{
+    font-size: 24px;
+    font-family: visbyBold;
+    margin-bottom: 20px;
+}
+.containerInformeEmail p{
+    font-size: 16px;
+    font-family: Inter-Regular;
+    margin-bottom: 30px;
+}

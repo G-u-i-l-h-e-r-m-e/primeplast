@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@font-face {
+    font-family:'visbyRegular';
+    src:url("Fonts/Visby/VisbyRegular.woff");
+}
+@font-face {
+    font-family:'visbyBold';
+    src:url("Fonts/Visby/VisbyBold.woff");
+}
+
+main{
+    display: flex;
+}
+.backgroundAzul{
+    width: 50%;
+    background-color: #007AF5;
+}
+
+.containerLogin{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #FFFFFF;
+}
+.logo{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin-right: 10em;
+}
+.inputLogin{
+    height: 30px;
+    border-radius: 12px;
+    border: 1px solid #E2E8F0;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: #A0AEC0;
+}
+.btnLogin{
+    width: 100%;
+    text-align: center;
+    border-radius: 16px;
+    height: 48px;
+    border:none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:visbyBold;
+}
+.fundoAzul{
+    background-color: #007AF5;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.fundoBranco{
+    background-color: #FFFFFF;
+    color:#007AF5;
+    border: 1px solid #007AF5;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeset</title>
+    <link rel="stylesheet" href="../informarEmail/informarEmail.css">
+    <link rel="stylesheet" href="../login/login.css">
+    <link rel="stylesheet" href="redefinirSenha.css">
+</head>
+<body>
+    <header class="headerPrime">
+        <img src="../Logo Primeset.png" alt="">
+    </header>
+    <main>
+        
+        <div class="containerInformeEmail">
+        <h3>Redefinir senha</h3>
+        <div class="inputContainer">
+        <form action="">
+        <div class="inputContainer" >
+        <input type="password" class="inputLogin" id="senha" placeholder="Nova senha">
+        <img src="../Icons/Eye.png" alt="mostrar senha" id="mostrarSenha">
+        </div>
+        <ul>
+            <li id="qtdCaracter" class="feedback">Mínimo 6 caracteres</li>
+                <li id="letra" class="feedback">Mínimo uma letra [a-z ou A-Z]</li>
+                <li id="numero" class="feedback">Mínimo um número [0-9]</li>
+            <li id="caracterEspecial" class="feedback">Mínimo um caracter especial [!@#$%ˆ&()_-+={}[]|:;<>?/~]</li>
+        </ul>
+        <div class="inputContainer">
+            <input type="password" class="inputLogin" id="confirmarSenha" placeholder="Confirmar senha">
+            <img src="../Icons/Eye.png" alt="" id="mostrarConfirmacao">
+        </div>
+        <button type="submit" class="btnLogin fundoAzul">Atualizar senha</button>
+        <button type="button" class="btnLogin fundoBranco">Cancelar</button>
+        </div>
+    </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
